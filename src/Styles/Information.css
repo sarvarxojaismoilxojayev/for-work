@@ -1,0 +1,66 @@
+@import "./Reset.css";
+
+.tipa-sidebar {
+    margin-top: 23px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 360px;
+    padding: 20px 10px 10px 20px;
+}
+
+.return {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: #11E927;
+    display: inline-block;
+    position: relative;
+    right: 12px;
+    top: 5px;
+    box-shadow: 3px 2px 4px 3px #11E927;
+
+
+}
+
+.lists {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.username {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.email {
+    color: #14191F;
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.setting-item {
+    color: #14191F;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.for-work {
+    margin-bottom: 25px;
+}
+
+.profile-icon {
+    color: #14191F;
+    font-size: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}

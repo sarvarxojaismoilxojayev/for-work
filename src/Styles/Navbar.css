@@ -1,0 +1,43 @@
+@import "./Reset.css";
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;  
+    align-items: flex-end;
+}
+
+.nav-list {
+    display: inline-block;
+}
+
+.nav-list {
+    font-weight: 550;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.nav-link {
+    color: #8B8B8B;
+}
+
+.link {
+    color: #1754F2;
+}
+
+.nav-link:focus {
+    color: black;
+}
+
+.link:focus {
+    color: #0FFF50;
+}
+
+.loaction-icon {
+    font-size: 24px;
+    position: relative;
+    top: 5px;
+    
+}
